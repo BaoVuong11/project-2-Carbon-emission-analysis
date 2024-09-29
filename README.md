@@ -1,5 +1,7 @@
 # Project-2-Carbon-emission-analysis
 
+Table carbon_emissions
+
 select * from product_emissions limit 10;
 
 | id            | company_id | country_id | industry_group_id | year | product_name                                                    | weight_kg | carbon_footprint_pcf | upstream_percent_total_pcf                       | operations_percent_total_pcf                     | downstream_percent_total_pcf                     | 
