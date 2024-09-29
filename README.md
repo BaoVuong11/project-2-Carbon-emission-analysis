@@ -15,6 +15,7 @@ select * from product_emissions limit 10;
 | 10661-10-2014 | 85         | 28         | 11                | 2014 | Regular Straight 505® Jeans – Steel (Water                      | 0.7665    | 15                   | N/a (product with insufficient stage-level data) | N/a (product with insufficient stage-level data) | N/a (product with insufficient stage-level data) | 
 | 10661-10-2015 | 85         | 28         | 6                 | 2015 | Regular Straight 505® Jeans – Steel (Water                      | 0.7665    | 15                   | N/a (product with insufficient stage-level data) | N/a (product with insufficient stage-level data) | N/a (product with insufficient stage-level data) | 
 
+Table industry_group
 
 select * from industry_groups limit 3;
 
@@ -24,6 +25,8 @@ select * from industry_groups limit 3;
 | 2  | "Food, Beverage & Tobacco"                                             | 
 | 3  | "Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber" | 
 
+Table Countries
+
 select * from countries limit 3;
 
 | id | country_name | 
@@ -31,6 +34,8 @@ select * from countries limit 3;
 | 1  | Australia    | 
 | 2  | Belgium      | 
 | 3  | Brazil       | 
+
+Table companies
 
 select * from companies limit 3;
 
